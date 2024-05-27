@@ -1,7 +1,7 @@
 import CustomFooter from '@/components/CustomFooter'
 import NavBar from '@/components/NavBar'
 import React from 'react'
-import { Marcellus, DM_Sans, Inter_Tight } from 'next/font/google'
+import { Marcellus, DM_Sans, Inter_Tight } from '@next/font/google'
 import Image from 'next/image'
 import BlogCard from '@/components/BlogCard'
 
@@ -21,7 +21,7 @@ const posts = [
         title : 'Understanding digital trademarks',
         imageURL : 'https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         date : '21st May, 2024',
-        description : 'lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus',
+        description : 'lorem dolor sed viverra ipsum aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus',
         link : '/blog'
     },
     {
