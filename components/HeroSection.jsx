@@ -24,8 +24,12 @@ const HeroSection = () => {
             <p className={`${dm_sans.className} text-center md:text-left lg:text-left px-10 md:px-0 lg:px-0 text-[#808080] text-sm lg:text-lg`}>At White Pebble Law LLP, we distinguish ourselves through our comprehensive expertise in both Corporate and Testamentary law, seamlessly integrating Intellectual Property management with Wills and Probate services to offer a unique, full-service legal solution. </p>
             </div>
             <div className='flex items-center justify-center md:items-start lg:items-start w-full md:w-auto lg:w-auto gap-4 lg:gap-10'>
+            <a href="/contact">
             <button className="lg:text-lg text-white hover:before:bg-redborder-orange-500 relative p-2 lg:h-[50px] lg:w-40 overflow-hidden border border-orange-500 bg-orange-500 text-white-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-orange-500 hover:shadow-[#FFEFE8] hover:before:left-0 hover:before:w-full"><span className="relative z-10">Contact Us</span></button>
+            </a>
+            <a href="#services">
             <button className="lg:text-lg text-orange-500 hover:before:bg-redborder-orange-500 relative p-2 lg:h-[50px] lg:w-40 overflow-hidden border border-orange-500 bg-white text-white-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-[#FFEFE8] hover:before:left-0 hover:before:w-full"><span className="relative z-10">Learn More</span></button>
+            </a>
              </div>         
         </div>
         <div className={`${inter.className} relative flex flex-col items-end`}>

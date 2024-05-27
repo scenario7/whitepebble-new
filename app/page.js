@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import Statistics from "@/components/Statistics";
 import Services from "@/components/Services";
 import CustomFooter from "@/components/CustomFooter";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection/>
       <Statistics/>
       <Services/>
+      <Reviews/>
       <CustomFooter/>
     </main>
   );
