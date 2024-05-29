@@ -112,7 +112,7 @@ const Page = async ({ params }) => {
                         alt='Background Image'
                     />
                     <div className='absolute inset-0 bg-black opacity-60'></div>
-                    <div className={`${marcellus.className} flex flex-col absolute gap-10 inset-0 items-center justify-center text-white text-6xl`}>
+                    <div className={`${marcellus.className} flex flex-col absolute gap-10 inset-0 items-center justify-center text-white text-3xl md:text-6xl lg:text-6xl`}>
                         <h1>{post.title}</h1>
                         <div className='flex gap-5 items-center'>
                             <img
