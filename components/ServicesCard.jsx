@@ -24,11 +24,13 @@ const ServicesCard = ({ params }) => {
             <h1 className={`${marcellus.className} text-white text-xl`}>{params.title}</h1>
             <p className={`${dm_sans.className} text-white`}>{params.description}</p>
         </div>
+        <a href="/services">
         <button className='absolute right-0 bottom-0 bg-orange-500 h-10 w-10 hover:h-14 hover:w-14 transition-all ease-in-out duration-300 items-center flex justify-center'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="w-6 h-6 text-black">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
             </svg>
         </button>
+        </a>
     </div>
   )
 }

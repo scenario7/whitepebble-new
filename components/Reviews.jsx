@@ -75,7 +75,7 @@ const Reviews = () => {
                         <h1 className={`${dm_sans.className} text-xl text-black font-semibold`}>{review.name}</h1>
                         <div className='flex gap-2'>
                             {[...Array(review.stars)].map((_, i) => (
-                                <FaStar key={i} color='black' className='h-5 w-5'/>
+                                <FaStar key={i} color='#f18a5e' className='h-5 w-5'/>
                             ))}
                         </div>
                         <p className={`${marcellus.className} text-xl text-center text-black`}>{review.description}</p>
