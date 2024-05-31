@@ -10,9 +10,9 @@ const dm_sans = DM_Sans({
 
 const NavBar = () => {
   return (
-    <div className='flex lg:flex-row md:flex-row flex-col sticky items-center justify-between px-10 lg:pt-10 bg-white text-center'>
+    <nav className='flex lg:flex-row md:flex-row flex-col sticky items-center justify-between px-10 lg:pt-10 bg-white text-center'>
       <a href="/">
-        <Image src={companyLogo} height={100} width={150} className='object-contain'/>
+        <Image src={companyLogo} alt='white pebble law llp logo' height={100} width={150} className='object-contain'/>
       </a>
         <div className={`${dm_sans.className} text-sm lg:text-md md:text-md text-black lg:px-10 px-5 flex gap-10`}>
             <a href='/'>HOME</a>
@@ -22,7 +22,7 @@ const NavBar = () => {
         <a href="/contact" className='hidden md:block lg:block'>
         <button class="hidden md:block lg:block text-lg text-white hover:before:bg-redborder-orange-500 relative h-[50px] w-40 overflow-hidden border border-white bg-orange-500 text-white-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-orange-500 hover:shadow-[#FFEFE8] hover:before:left-0 hover:before:w-full"><span class="relative z-10">Contact Us</span></button>
         </a>
-    </div>
+    </nav>
   )
 }
 

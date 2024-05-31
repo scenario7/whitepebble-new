@@ -17,11 +17,11 @@ const inter = Inter_Tight({
 
 const HeroSection = () => {
   return (
-    <div className={`${marcellus.className} pt-10 lg:pt-20 flex flex-col lg:flex-row md:flex-row items-start justify-between gap-10 lg:gap-64 md:pl-10 lg:pl-10 bg-gradient-to-b from-white to-[#ffefe8]`}>
+    <div className={`${marcellus.className} pt-10 lg:pt-20 flex flex-col lg:flex-row md:flex-row items-start justify-between gap-10 lg:gap-20 md:pl-10 lg:pl-10 bg-gradient-to-b from-white to-[#ffefe8]`}>
         <div className='flex flex-col gap-20 items-start'>
             <div>
-            <h1 className='text-[#171717] text-5xl text-center md:text-left lg:text-left lg:text-7xl py-10 px-5 md:px-0 lg:px-0'>Legal protection for your business stars <span className='text-orange-500'>here</span>.</h1>
-            <p className={`${dm_sans.className} text-center md:text-left lg:text-left px-10 md:px-0 lg:px-0 text-[#808080] text-sm lg:text-lg`}>At White Pebble Law LLP, we distinguish ourselves through our comprehensive expertise in both Corporate and Testamentary law, seamlessly integrating Intellectual Property management with Wills and Probate services to offer a unique, full-service legal solution. </p>
+            <h1 className='text-[#171717] text-4xl text-center md:text-left lg:text-left lg:text-7xl py-5 px-5 md:px-0 lg:px-0'>Leaders in <span className='text-orange-500'>intellectual property</span> management.</h1>
+            <p className={`${dm_sans.className} text-center md:text-left lg:text-left px-10 md:px-0 lg:px-0 text-[#808080] text-sm lg:text-lg`}>At White Pebble Law LLP, we distinguish ourselves through our comprehensive expertise in both Corporate and Testamentary law, offering full-service legal solutions in the process of trademarks, copyrights and agreement registration. </p>
             </div>
             <div className='flex items-center justify-center md:items-start lg:items-start w-full md:w-auto lg:w-auto gap-4 lg:gap-10'>
             <a href="/contact">
@@ -40,7 +40,7 @@ const HeroSection = () => {
         </button>   
         </a>
             <div className='relative'>
-                <img src='https://images.unsplash.com/photo-1589994965851-a8f479c573a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='object-cover lg:rounded-tl-[40px] md:rounded-tl-2xl w-[2000px]'/>
+                <img src='https://images.unsplash.com/photo-1589994965851-a8f479c573a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='image of lady law holding a scale' className='object-cover lg:rounded-tl-[40px] md:rounded-tl-2xl w-[2000px]'/>
                 <div className='absolute inset-0 bg-[#F18A5E] mix-blend-soft-light lg:rounded-tl-[40px] md:rounded-tl-2xl'></div>
             </div>
         </div>

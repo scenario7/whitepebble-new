@@ -12,23 +12,24 @@ const marcellus = Marcellus({
   const services = [
     {
         title : 'Trademark Monitoring',
-        description : 'Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus.',
-        link : '',
+        description : 'We specialize in helping businesses and entrepreneurs apply for a trademark for their enterprise both in India and abroad.',
+        link : '/services',
         imageURL : 'https://plus.unsplash.com/premium_photo-1661600494728-0d95fb50f924?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
         title : 'Copyright Registration',
-        description : 'Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus.',
-        link : '',
+        description : 'Get assistance with the process of obtaining a copyright registration certificate and the fees associated with it.',
+        link : '/services',
         imageURL : 'https://images.unsplash.com/photo-1589216532372-1c2a367900d9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
-        title : 'Agreement Settlement',
-        description : 'Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus.',
-        link : '',
+        title : 'Design Registration',
+        description : 'Secure the unique visual appearance of your product with our comprehensive design registration services, ensuring your designs are legally protected and recognized.',
+        link : '/services',
         imageURL : 'https://images.unsplash.com/photo-1473186505569-9c61870c11f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
-  ]
+]
+
 
 const Services = () => {
   return (

@@ -21,32 +21,32 @@ const Reviews = () => {
         {
             name: 'Aditya J',
             stars: 5,
-            description: 'White Pebble is the best law firm in Mumbai for trademark matters. I got my company\'s trademark registration through them. It was such a smooth and quick process. I will definitely recommend contacting them for all your trademark registration in India',
+            description: 'White Pebble is the best law firm in Mumbai for trademark matters. I got my company\'s trademark registration through them. It was such a smooth and quick process. Would highly recommend.',
         },
         {
-            name: 'John Doe',
+            name: 'Rajan Iyengar',
+            stars: 5,
+            description: 'Thoroughly professional. Excellently equipped technicals - the kind that one needs from a legal professional.',
+        },
+        {
+            name: 'Pratick Tanna',
+            stars: 5,
+            description: 'My trademark registration matter was professionally handled from start to finish. I received prompt service and everything was done smoothly.',
+        },
+        {
+            name: 'Jinagna Doshi',
+            stars: 5,
+            description: 'Outstanding trademark registration providers in Mumbai. Fab job done for my company registration in a time efficient manner.',
+        },
+        {
+            name: 'Desi Rider',
             stars: 4,
-            description: 'The team at White Pebble provided excellent service. They were very professional and efficient in handling my trademark issues.',
+            description: 'One of the best lawyers I met. Very knowledgable and very helpful. She has the solutions to all the legal matters and makes it look like everything is easy for her.',
         },
         {
-            name: 'Jane Smith',
+            name: 'Farzana Rahman',
             stars: 5,
-            description: 'Amazing experience! The staff at White Pebble is very knowledgeable and helpful. They made the trademark registration process so easy.',
-        },
-        {
-            name: 'Robert Brown',
-            stars: 5,
-            description: 'Highly recommend White Pebble for their outstanding service and expertise in trademark law. They took care of everything for my business.',
-        },
-        {
-            name: 'Emily Davis',
-            stars: 4,
-            description: 'Great service and support from White Pebble. They were very responsive and helped me understand the entire process.',
-        },
-        {
-            name: 'Michael Wilson',
-            stars: 5,
-            description: 'White Pebble made the trademark registration process a breeze. Their team is very professional and efficient. I will definitely use their services again.',
+            description: 'Received extremely professional service for my trademark registration. Highly recommend',
         },
     ];
 
@@ -72,7 +72,7 @@ const Reviews = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {displayedReviews.map((review, index) => (
                     <div key={index} className='flex flex-col items-center gap-5'>
-                        <h1 className={`${dm_sans.className} text-xl text-black font-semibold`}>{review.name}</h1>
+                        <h2 className={`${dm_sans.className} text-xl text-black font-semibold`}>{review.name}</h2>
                         <div className='flex gap-2'>
                             {[...Array(review.stars)].map((_, i) => (
                                 <FaStar key={i} color='#f18a5e' className='h-5 w-5'/>

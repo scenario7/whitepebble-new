@@ -21,7 +21,7 @@ const ServicesCard = ({ params }) => {
     >
         <div className='absolute inset-0 bg-black opacity-60'></div>
         <div className='relative p-5 flex flex-col gap-5'>
-            <h1 className={`${marcellus.className} text-white text-xl`}>{params.title}</h1>
+            <h2 className={`${marcellus.className} text-white text-xl`}>{params.title}</h2>
             <p className={`${dm_sans.className} text-white`}>{params.description}</p>
         </div>
         <a href="/services">
